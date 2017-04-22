@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Geometrics Shapes</string>
+    <string name="circulo_titulo">Circle</string>
+    <string name="circulo_texto">It is the shape of a ball or the sun</string>
+    <string name="ovalo_titulo">Oval</string>
+    <string name="ovalo_texto">It is a elongated circle as an egg</string>
+    <string name="cuadrado_titulo">Square</string>
+    <string name="cuadrado_texto">It is the figure of four equal sides</string>
+    <string name="rectangulo_titulo">Rect</string>
+    <string name="rectangulo_texto">It has two long sides and two short</string>
+    <string name="dibujo_libre_titulo">Free Drawing</string>
+    <string name="dibujo_libre_texto">Draw some figures freely</string>
+    <string name="toast_circulo">Touch the screen to draw some circle</string>
+    <string name="toast_ovalo">Touch the screen to draw some oval</string>
+    <string name="toast_cuadrado">Touch the screen to draw some square</string>
+    <string name="toast_rectangulo">Touch the screen to draw some Rect</string>
+    <string name="toast_free">Pasa tu dedo por la pantalla para dibujar algunas figuras</string>
+</resources>

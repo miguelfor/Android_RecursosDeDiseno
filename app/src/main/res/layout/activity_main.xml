@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    tools:context="com.example.miguelforero.recursosdediseno.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:elevation="20dp"
+                android:onClick="circulo"
+                card_view:cardCornerRadius="5dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="16dp">
+
+
+                    <ImageView
+                        android:id="@+id/imagen1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="15dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_circulo"
+                        android:tint="@color/colorFiguras" />
+
+                    <TextView
+                        android:id="@+id/titulo1"
+                        style="@style/titulo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/imagen1"
+                        android:text="@string/circulo_titulo" />
+
+                    <TextView
+                        android:id="@+id/texto1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titulo1"
+                        android:layout_marginLeft="16dp"
+                        android:layout_toRightOf="@+id/imagen1"
+                        android:text="@string/circulo_texto"
+                        android:textSize="15dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:elevation="20dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="ovalo"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp">
+
+
+                    <ImageView
+                        android:id="@+id/imagen2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="false"
+                        android:layout_centerInParent="false"
+                        android:layout_centerVertical="false"
+                        android:layout_marginLeft="15dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_ovalo"
+                        android:tint="@color/colorFiguras" />
+
+                    <TextView
+                        android:id="@+id/titulo2"
+                        style="@style/titulo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/imagen2"
+                        android:text="@string/ovalo_titulo" />
+
+                    <TextView
+                        android:id="@+id/texto2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titulo2"
+                        android:layout_marginLeft="16dp"
+                        android:layout_toRightOf="@+id/imagen2"
+                        android:text="@string/ovalo_texto"
+                        android:textSize="15dp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:elevation="20dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="cuadrado"
+                    android:paddingTop="16dp">
+
+
+                    <ImageView
+                        android:id="@+id/imagen3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="15dp"
+                        android:backgroundTint="#99cc00aa"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_cuadrado"
+                        android:tint="@color/colorFiguras" />
+
+                    <TextView
+                        android:id="@+id/titulo3"
+                        style="@style/titulo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/imagen3"
+                        android:text="@string/cuadrado_titulo" />
+
+                    <TextView
+                        android:id="@+id/texto3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titulo3"
+                        android:layout_marginLeft="16dp"
+                        android:layout_toRightOf="@+id/imagen3"
+                        android:text="@string/cuadrado_texto"
+                        android:textSize="15dp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:elevation="20dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="rectangulo"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp">
+
+
+                    <ImageView
+                        android:id="@+id/imagen4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="15dp"
+                        android:backgroundTint="#99cc00aa"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_rectangulo"
+                        android:tint="@color/colorFiguras" />
+
+                    <TextView
+                        android:id="@+id/titulo4"
+                        style="@style/titulo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/imagen4"
+                        android:text="@string/rectangulo_titulo" />
+
+                    <TextView
+                        android:id="@+id/texto4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titulo4"
+                        android:layout_marginLeft="16dp"
+                        android:layout_toRightOf="@+id/imagen4"
+                        android:text="@string/rectangulo_texto"
+                        android:textSize="15dp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:elevation="20dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="libre"
+                    android:paddingTop="16dp">
+
+
+                    <ImageView
+                        android:id="@+id/imagenlista"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="15dp"
+                        android:backgroundTint="#99cc00aa"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_star"
+                        android:tint="@color/colorFiguras" />
+
+                    <TextView
+                        android:id="@+id/titulo"
+                        style="@style/titulo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/imagenlista"
+                        android:text="@string/dibujo_libre_titulo" />
+
+                    <TextView
+                        android:id="@+id/texto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titulo"
+                        android:layout_marginLeft="16dp"
+                        android:layout_toRightOf="@+id/imagenlista"
+                        android:text="@string/dibujo_libre_texto"
+                        android:textSize="15dp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

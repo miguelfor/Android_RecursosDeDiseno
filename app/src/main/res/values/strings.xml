@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Figuras Geométricas</string>
+    <string name="circulo_titulo">Circulo</string>
+    <string name="circulo_texto">Es la forma de una pelota o el sol</string>
+    <string name="ovalo_titulo">Óvalo</string>
+    <string name="ovalo_texto">Es un circulo alargado como un huevo</string>
+    <string name="cuadrado_titulo">Cuadrado</string>
+    <string name="cuadrado_texto">Es la figura de cuatro lados iguales</string>
+    <string name="rectangulo_titulo">Rectángulo</string>
+    <string name="rectangulo_texto">Tiene dos lados largos y dos lados cortos</string>
+    <string name="dibujo_libre_titulo">Dibujo Libre</string>
+    <string name="dibujo_libre_texto">Dibuja algunas figuras libremente</string>
+    <string name="toast_circulo">Toca la pantalla para dibujar algunos circulos</string>
+    <string name="toast_ovalo">Toca la pantalla para dibujar algunos ovalos</string>
+    <string name="toast_cuadrado">Toca la pantalla para dibujar algunos cuadrados</string>
+    <string name="toast_rectangulo">Toca la pantalla para dibujar algunos rectangulos</string>
+    <string name="toast_free">Pasa tu dedo por la pantalla para dibujar algunas figuras</string>
+</resources>
